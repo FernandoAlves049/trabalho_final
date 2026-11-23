@@ -1,0 +1,65 @@
+# Sistema operacional e editores
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ e Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter, Dart e Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Símbolos e mapas de ofuscação
+app.*.symbols
+app.*.map.json
+
+# Caches e saídas de compilação do Android
+/android/.kotlin/
+/android/build/
+/android/app/build/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Configuração local e cópias do banco de contas e favoritos
+.env
+.env.*
+!.env.example
+!.env.template
+pixel_radar.db
+pixel_radar.db-journal
+pixel_radar.db-wal
+pixel_radar.db-shm
+
+# Pacotes de entrega gerados a partir do código-fonte
+/entrega/*.apk
+/entrega/*.aab
+/entrega/Pixel_Radar_codigo_fonte.zip
+
+# Material acadêmico
+/PDFs/
+/entrega/Modelo_Apresentacao_Academica.pptx
+/entrega/Guia_de_apresentacao_Pixel_Radar.pdf
+/entrega/Relatorio_Pixel_Radar_Fernando_Alves_de_Souza.pdf
